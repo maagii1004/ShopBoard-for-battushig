@@ -5,6 +5,7 @@ import { Search } from 'lucide-react';
 import { Facebook } from 'lucide-react';
 import { Twitter } from 'lucide-react';
 import { Instagram } from 'lucide-react';
+import Link from "next/link";
 
 export default function Header() {
     return (
@@ -31,8 +32,8 @@ export default function Header() {
         <div className="border-gray-400 border-[0.1px] mt-4 mx-[15%]"></div>
         <nav className="">
           <li className="flex justify-center gap-28 pt-1 h-14 items-center">
-            <a href="http://localhost:3000"><ul className="hover:cursor-pointer hover:shadow-2xl hover:opacity-90">Home</ul></a>
-            <a href="/market"><ul className="hover:cursor-pointer">Market</ul></a>
+            <Link href="http://localhost:3000"><ul className="hover:cursor-pointer hover:shadow-2xl hover:opacity-90">Home</ul></Link>
+            <Link href="/product"><ul className="hover:cursor-pointer">Market</ul></Link>
             <ul className="hover:cursor-pointer">About Us</ul>
             <ul className="hover:cursor-pointer">Contact Us</ul>
           </li>

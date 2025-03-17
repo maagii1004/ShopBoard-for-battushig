@@ -1,4 +1,5 @@
 import { FaShopware } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -11,9 +12,9 @@ export default function Home() {
         <p className="pt-7">“The customer’s perception is your reality.” – Kate Zabriskie
 
 </p>
-        <a href="/market"><button className="mt-6 px-8 py-3 text-lg font-semibold bg-white text-purple-700 rounded-full shadow-md hover:bg-purple-200 transition">
+        <Link href="/product"><button className="mt-6 px-8 py-3 text-lg font-semibold bg-white text-purple-700 rounded-full shadow-md hover:bg-purple-200 transition">
           Start Shopping
-        </button></a>
+        </button></Link>
       </div>
 
       <FaShopware className="absolute right-0 top-1/2 transform -translate-y-1/2 text-[1300px] opacity-10 text-white blur-sm" />
