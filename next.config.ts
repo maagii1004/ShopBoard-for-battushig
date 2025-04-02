@@ -5,3 +5,10 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+// next.config.js
+module.exports = {
+  images: {
+    domains: ['placehold.jp', 'img.clerk.com', 'www.pexels.com'],
+  },
+};
+

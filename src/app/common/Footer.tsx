@@ -10,12 +10,6 @@ export default function Footer() {
             <p>Extra information</p>
           </div>
           <div>
-            <h1 className="font-bold pb-4">Interesting Links</h1>
-            <p>Placeholder</p>
-            <p>Placeholder</p>
-            <p>Placeholder</p>
-          </div>
-          <div>
             <h1 className="font-bold pb-4">Social Media</h1>
             <p>Facebook</p>
             <p>Twitter</p>
@@ -26,8 +20,8 @@ export default function Footer() {
 
         <div>
           <h1 className="font-bold pb-4">Contact Us</h1>
-          <p>Email: someoneidontknow@gmail.com</p>
-          <p>+976-1231-1313</p>
+          <p>Email: support@shopboard.com</p>
+          <p>+1 (800) 123-4567</p>
         </div>
       </section>
     </footer>

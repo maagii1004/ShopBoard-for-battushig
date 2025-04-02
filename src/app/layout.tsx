@@ -3,6 +3,7 @@ import Header from "./common/Header";
 import Footer from "./common/Footer";
 import "./globals.css";
 
+
 export const metadata: Metadata = {
   title: "ShopBoard",
   description: "The best e-commerce you will ever see!!",
